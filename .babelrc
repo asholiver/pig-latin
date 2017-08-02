@@ -1,0 +1,10 @@
+{
+  "presets": [ "es2015-rollup"],
+  "ignore": [
+     "node_modules/**/*",
+     "crm/assets/js/legacy/**/*",
+     "crm/assets/js/legacy/*.js"
+  ],
+  "plugins": [ "external-helpers" ],
+  "sourceMap": "both"
+}

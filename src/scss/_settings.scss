@@ -1,0 +1,104 @@
+/* ============================================================================
+   SETTINGS
+   ========================================================================= */
+
+/* 1. Colours (Global)
+   ========================================================================= */
+
+
+// Greys
+$g-color-grey-500: #636e7b;
+
+$g-color-grey-400: #ccc;
+
+$g-color-grey-300: #d3d7db;
+
+$g-color-grey-200: #f7f7f7;
+
+$g-color-grey-100: #fcfcfc;
+
+
+// Blues
+$g-color-blue-800: #1d2939;
+
+$g-color-blue-600: #3071a9;
+
+$g-color-blue-500: #428bca;
+
+$g-color-blue-300: #5bc0de;
+
+
+// Greens
+$g-color-green-500: #26a65b;
+
+
+// Reds
+$g-color-red-500: #d91e18;
+
+
+// Yellows
+$g-color-yellow-500: #f7ca18;
+
+
+/**
+ * Text.
+ */
+
+// Base (global text colour)
+$shell-g-color-text: $g-color-grey-500;
+
+
+/**
+ * Links.
+ */
+
+$shell-g-color-link: $g-color-blue-300;
+
+
+/**
+ * Validation / Notifications.
+ */
+
+$g-success-color: $g-color-green-500;
+
+$g-error-color: $g-color-red-500;
+
+$g-neutral-color: $g-color-yellow-500;
+
+
+/**
+ * Shadows.
+ */
+
+$g-shadow-color: #0c0c0c;
+
+$g-shadow-opacity: 0.03;
+
+
+/**
+ * Border-radius.
+ */
+
+$g-border-radius: 0;
+
+
+/* 8. Base (Local)
+   ========================================================================= */
+
+/**
+ * Root element.
+ */
+
+$shell-base-root-element-background-color: #e4e7ea;
+
+$shell-g-font-family: sans-serif;
+
+$shell-g-font-size: 16;
+
+/**
+ * Links.
+ */
+
+$shell-base-link-text-decoration: none;
+
+
