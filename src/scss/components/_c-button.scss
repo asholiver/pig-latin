@@ -2,17 +2,18 @@
    COMPONENTS -> BUTTON
    ========================================================================= */
 
-/**
-* Settings.
-*/
-
-
-
 
 /**
 * Base.
 */
 
 .c-button {
-
+  background-color: $g-color-grey-300;
+  border-radius: rem(10);
+  color: #a6a6a6;
+  font-size: rem($shell-g-font-size-x-small);
+  font-weight: $g-font-weight;
+  padding: 0 rem(15);
+  margin: rem(5);
+  border: 0;
 }
