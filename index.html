@@ -10,8 +10,22 @@
 </head>
 <body>
 
-<main class="l-main">
-    <h1>Pig latin code test try agaifdsfdfn</h1>
+<main class="c-container">
+    <div class="mobile-screen">
+        <ol id="id_translated-container" class="c-translated-container"></ol>
+        <div>
+            <form class="js-translate-trigger"
+                  data-history-id="id_translated-container"
+                  data-output-label-id="id_english_text">
+                <div class="c-text-field">
+                    <label class="h-hide-visually" for="id_translate_input">English to translate</label>
+                    <input id="id_translate_input" class="c-text-field__input js-translate-input" type="text" placeholder="Type something...">
+                    <button type="submit" class="c-button">Translate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 </main>
 
