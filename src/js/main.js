@@ -1,3 +1,4 @@
-const test = (x, y) => x + y;
+import bindTranslate from './translate';
 
-test(2,3);
+bindTranslate();
+

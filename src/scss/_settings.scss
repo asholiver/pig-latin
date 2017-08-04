@@ -11,9 +11,11 @@ $g-color-black: #211411;
 
 $g-color-white: #fff;
 
-$g-color-grey: #e0e0e0;
+$g-color-grey-light: #d3d7db;
 
-$g-color-grey-300: #d3d7db;
+$g-color-grey-dark: #a6a6a6;
+
+$g-color-red: #E91E63;
 
 
 
@@ -22,7 +24,7 @@ $g-color-grey-300: #d3d7db;
  * Border
 */
 
-$g-border: 1px solid $g-color-black;
+$g-border: 1px solid $g-color-grey-dark;
 
 
 /**

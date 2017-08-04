@@ -8,9 +8,10 @@
 */
 
 .c-text-field {
-  background-color: #a6a6a6;
+  background-color: $g-color-white;
   border-bottom-left-radius: $g-border-radius;
   border-bottom-right-radius: $g-border-radius;
+  border-top: 1px solid $g-color-grey-dark;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -21,16 +22,10 @@
 
 .c-text-field__input {
   border-bottom-left-radius: $g-border-radius;
-  color: $g-color-white;
   flex-grow: 1;
   font-size: rem($shell-g-font-size);
   font-weight: $g-font-weight;
-  padding: rem(30) 0;
+  padding: rem($shell-g-spacing-x-large) 0;
   text-align: center;
 }
-
-.c-text-field__input::placeholder {
-  color: $g-color-white;
-}
-
 
